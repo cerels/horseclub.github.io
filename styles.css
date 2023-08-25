@@ -1,0 +1,166 @@
+/* styles.css */
+body {
+  color: #2d2319;
+}
+/* Navbar Styles */
+.navbar-brand {
+  font-family: "Cinzel Decorative", cursive;
+  padding: 20%;
+}
+
+.navbar-nav {
+  padding: 0 25%;
+}
+
+.brand-text-large {
+  font-size: 2.5rem;
+  color: #a27b51;
+}
+
+.brand-text-small {
+  font-size: 2.5rem;
+  color: #594e44;
+}
+
+.nav-item .nav-link {
+  color: #605e5b;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.emoji {
+  color: #9f6d3e;
+  font-size: 3rem;
+}
+
+/* Welcome Cards Styles */
+.col-md-4:first-child .card {
+  border: none;
+  background-color: #2d2319;
+}
+
+/* Change background colors of Card 2 and Card 3 */
+.welcome-cards-bg .col-md-4:nth-child(2) .card {
+  background-color: #49321d; /* Set your desired background color for Card 2 */
+}
+
+.welcome-cards-bg .col-md-4:nth-child(3) .card {
+  background-color: #402d1e; /* Set your desired background color for Card 3 */
+}
+
+/* Center alignment for card bodies */
+.col-md-4 + .col-md-4 .card-body {
+  text-align: center;
+}
+
+/* Background and spacing for welcome cards section */
+.welcome-cards-bg {
+  background-color: #2d2319; /* Set your desired background color */
+  padding: 20px 0; /* Add padding as needed */
+}
+.info-cards-bg {
+  background-color: #F1EFE3; /* Set your desired background color */
+  padding: 20px 0; /* Add padding as needed */
+}
+/* Card Title and Text Styles */
+.card-title-1 {
+  color: #e7c49c;
+  font-family: "Oregano", cursive;
+  font-size: 40px;
+}
+
+.card-title-2 {
+  color: #9f6d3e;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card-title-3 {
+  color: #3F1900;
+  font-family: "Oregano", cursive;
+  font-size: 30px;
+}
+.card-text-1 {
+  color: #B49884;
+}
+
+.card-text-2 {
+  color: #c0744b;
+}
+
+/* Button Styles for Card 1 and Card 2 */
+.welcome-cards-bg .btn.btn-primary.btn-1 {
+  background-color: #493c2f;
+  border-color: #493c2f;
+  color: #ac9a90;
+}
+
+.info-cards-bg .btn.btn-primary.btn-1 {
+  background-color: #786048;
+  border-color: #786048;
+  color: #f0ecea;
+}
+
+.welcome-cards-bg .btn.btn-primary.btn-2 {
+  background-color: #a16d31;
+  border-color: #a16d31;
+  color: #482e10;
+  font-weight: bolder;
+}
+
+/* Flexbox styling for card content and layout */
+.welcome-cards-bg .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0; /* Remove default margin */
+  border: none;
+}
+
+/* Stretch columns to match background height */
+.welcome-cards-bg .col-md-4 {
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+}
+
+/* footer  */
+.footer {
+  background-color: #F0EEE2;
+  color: 482e10;
+  padding: 20px 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  flex-basis: calc(33.33% - 20px); /* Distribute links evenly */
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.newsletter-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.newsletter-button {
+  background-color: #a16d31;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
